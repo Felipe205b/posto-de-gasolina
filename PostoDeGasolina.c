@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <locale.h>
 
-//Struct para os carros
 struct Tcarro{
   char modelo[30] ;
   char placa[30] ;
@@ -207,3 +206,4 @@ int fun_decre (int *fila){
   printf ("Número de carros na fila: %d\n", *fila);
  return *fila;
  }
+
